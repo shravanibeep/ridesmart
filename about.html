@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <title>RideSmart</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+             <a href="index.html"><img src="logo.png"></a>
+             <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="">HOME</a></li>
+                     <li><a href="">ABOUT</a></li>
+                     <li><a href="">COURSES</a></li>
+                     <li><a href="">OUR TEAM</a></li>
+                     <li><a href="">CONTACT US</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav> 
+<!-------Javascript for toggle menu------>    
+<script>
+    var navLinks = document.getElementById("navLinks") ; 
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+    
+  </script>
+            <h1>ABOUT US</h1>
+         </section>
+<!-------about us content---------->
+<section class="welcome">
+    <div class="container">
+        <h2>Welcome to Ride Smart</h2>
+        <p>Welcome to AI Mastery Academy, where we specialize in equipping individuals with the essential knowledge and skills to thrive in the dynamic realm of Artificial Intelligence. Whether you're stepping into AI for the first time or seeking to deepen your expertise, our tailored training programs cater to all skill levels and career aspirations.</p>
+    </div>
+</section>
+
+<section class="commitment">
+    <div class="container">
+        <div class="commitment-content">
+            <h2>Our Commitment to Excellence</h2>
+            <div class="commitment-text">
+                <p>At AI Mastery Academy, we pride ourselves on offering comprehensive AI training programs designed to meet the diverse needs of our students. Our courses are crafted and delivered by industry experts who bring real-world experience and cutting-edge insights into every lesson.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <section class="why-choose-us">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="reasons">
+                <div class="reason">
+                    <i class="fa fa-black-tie"></i>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from seasoned professionals and academics at the forefront of AI research and application.
+                    </p>
+                </div>
+                <div class="reason">
+                    <i class="fa fa-graduation-cap"></i>
+                    <h3>Practical Learning</h3>
+                    <p>Engage in hands-on projects and case studies that prepare you for real-world challenges.</p>
+                </div>
+                <div class="reason">
+                    <i class="fa fa-calendar"></i>
+                    <h3>Flexible Learning Options</h3>
+                    <p> Access courses online, at your own pace, from anywhere in the world.</p>
+                </div>
+                <div class="reason">
+                    <i class="fa-solid fa-chart-user"></i>
+                    <h3>Career Advancement</h3>
+                    <p>Gain the skills and confidence needed to excel in AI-driven industries and sectors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!---footer-->
+    <footer>
+        <div class="footer-logo">
+            <h1>Ride-Smart</h1>
+            <p>Empower Your Career with Cutting-Edge AI Skills</p>
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <!-- Footer Navigation -->
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">All Courses</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Address Section -->
+        <div class="footer-address">
+            <p>ADDRESS</p>
+            <p>CORPORATE OFFICE</p>
+            <p>100 Consilium Place, Suite 200</p>
+            <p>Scarborough, ON M1H 3E3</p>
+            <p>+1 647 476 4449</p>
+            <p>info@ridesmart.com</p>
+        </div>
+    </footer>
+</body>
+</html>

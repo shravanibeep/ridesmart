@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <title>RideSmart</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+             <a href="index.html"><img src="logo.png"></a>
+             <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="">HOME</a></li>
+                     <li><a href="">ABOUT</a></li>
+                     <li><a href="">COURSES</a></li>
+                     <li><a href="">OUR TEAM</a></li>
+                     <li><a href="">CONTACT US</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav> 
+
+            <div class="text-box">
+                <h2>Empower Your Career with Cutting-Edge AI Skills</h2>
+                <P>Whether you're stepping into AI for the first time or seeking to deepen your expertise, our tailored training programs cater to all skill levels and career aspirations.</P><br>
+                <a href="" class="hero-btn">Start a Course</a>
+            </div>
+            </section>
+<!-------Javascript for toggle menu------>    
+<script>
+    var navLinks = document.getElementById("navLinks") ; 
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+    
+</script>
+         
+<!-------------promise section-------------->
+<section class="promise-section">
+    <div class="left-column">
+        <h2>Earn 6-figure Incomes</h2>
+        <h1>Our facilities</h1>
+    </div>
+    <div class="right-column">
+        <ul>
+            <li>167 Hours of Live Instructor-led Sessions</li>
+            <li>130+ Guided Hands-on Experience</li>
+            <li>15 Real-World Case Studies</li>
+            <li>288 Hours of E-Learning Material</li>
+            <li>9 Capstone Projects for a Job-Ready Portforlio</li>
+            <li>Weekly Doubt-Clearing Sessions with Experts</li>
+        </ul>
+    </div>
+</section>
+<section class="courses-section">
+    <h2>Our Courses</h2>
+    <div class="courses-container">
+        <div class="course-card">
+            <img src="pythonprogramming.jpg" alt="Python Programming">
+            <h3>Python Programming</h3>
+            <p>Ace Python concepts, different data types, conditional statements, and user-defined functions in Python</p>
+            
+        </div>
+        <div class="course-card">
+            <img src="machinelearning.jpg" alt="Machine Learning">
+            <h3>Machine Learning with Python</h3>
+            <p>Learn about Regression and Classification algorithms and build Machine Learning Models</p>
+        </div>
+        <div class="course-card">
+            <img src="naturallanguageprocessing.jpg" alt="Natural Language Processing">
+            <h3>Natural Language processing</h3>
+            <p>Understand advanced NPL concepts, learn to use NLTK, Natural Language Generation, and NLP apps</p>
+        </div>
+        <div class="course-card">
+            <img src="statistical-modelling.jpg" alt="Statistical Modelling">
+            <h3>Statistical Modelling</h3>
+            <p>Gain a thorough understanding of maths and statistics foundation for Machine Learning and AI</p>
+        </div>
+        <div class="course-card">
+            <img src="deep-learning.jpg" alt="Deep Learning">
+            <h3>Deep Learning</h3>
+            <p>Learn to use Keras and TensorFlow to solve complex problems with Deep Learning models</p>
+        </div>
+        <div class="course-card">
+            <img src="AI-transformers.jpg" alt="AI with Transformers">
+            <h3>AI with Transformers</h3>
+            <p>Understand why AI Transformer models are so unique and build robust applications using them</p>
+        </div>
+    </div>
+</section>
+<!-------skills section-------->
+<section class="parallax">
+    <div class="skills-section">
+        <h2>Skills You Will Gain</h2>
+        <ul class="skills-list">
+            <li><span class="checkmark">✔</span> Perform Descriptive Analysis on the data</li>
+            <li><span class="checkmark">✔</span> Use OOPs concepts for writing Python code </li>
+            <li><span class="checkmark">✔</span> Perform Data Pre-processing</li>
+            <li><span class="checkmark">✔</span> Build Regression Models</li>
+            <li><span class="checkmark">✔</span> Apply Inferential Statistics to draw conclusions</li>
+            <li><span class="checkmark">✔</span> Solve errors and inconsistencies using Python</li>
+            <li><span class="checkmark">✔</span> Deal with missing values and outliers</li>
+            <li><span class="checkmark">✔</span> Develop and Test Machine Learning models</li>
+            <li><span class="checkmark">✔</span> Write user-defined functions in Python</li>
+            <li><span class="checkmark">✔</span> Perform Exploratory Data Analysis and Visualization</li>
+            <li><span class="checkmark">✔</span> Perform Feature Selection and Feature Engineering</li>
+            <li><span class="checkmark">✔</span> Build and Evaluate Classification models</li>
+        </ul>
+    </div>
+</section>
+<!--trainer section-->
+<section class="trainer-section">
+    <div class="trainer-container">
+        <h2>Become a Trainer</h2>
+        <p>Join our team of expert trainers and help others learn and grow. Share your knowledge and skills with a global audience.</p>
+        <a href="#" class="btn-cta">Apply Now</a>
+    </div>
+</section>
+
+<!---footer-->
+    <footer>
+        <div class="footer-logo">
+            <h1>Ride-Smart</h1>
+            <p>Empower Your Career with Cutting-Edge AI Skills</p>
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <!-- Footer Navigation -->
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">All Courses</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Address Section -->
+        <div class="footer-address">
+            <p>ADDRESS</p>
+            <p>CORPORATE OFFICE</p>
+            <p>100 Consilium Place, Suite 200</p>
+            <p>Scarborough, ON M1H 3E3</p>
+            <p>+1 647 476 4449</p>
+            <p>info@ridesmart.com</p>
+        </div>
+    </footer>
+</body>
+</html>
