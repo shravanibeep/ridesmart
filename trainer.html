@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
     </head>
     <body>
-        <section class="courses-header">
+        <section class="trainer-header">
             <nav>
              <a href="index.html"><img src="logo.png"></a>
              <div class="nav-links" id="navLinks">
@@ -36,54 +36,35 @@
       navLinks.style.right = "-200px";
     }
 </script>
-    <h1>EXPLORE OUR COURSES</h1>
+    <h1>JOIN OUR TEAM</h1>
 </section>
-<section class="courses1-section">
-    
-    <div class="courses1-container">
-        <div class="course1-card">
-            <img src="pythonprogramming.jpg" alt="Course 1">
-            <h3>Python Programming</h3>
-            <p>Ace Python concepts, different data types, conditional statements, and user-defined functions in Python</p>
-            <button class="add-to-cart-btn">Add to Cart</button> 
-        </div>
-        <div class="course1-card">
-            <img src="machinelearning.jpg" alt="course2">
-            <h3>Machine Learning with Python</h3>
-            <p>Learn about Regression and Classification algorithms and build Machine Learning Models</p>    
-            <button class="add-to-cart-btn">Add to Cart</button>
-        </div>
-        <div class="course1-card">
-            <img src="naturallanguageprocessing.jpg" alt="Course 3">
-            <h3>Natural Language processing</h3>
-            <p>Understand advanced NPL concepts, learn to use NLTK, Natural Language Generation, and NLP apps</p>
-            <button class="add-to-cart-btn">Add to Cart</button>
-        </div>
-        <div class="course1-card">
-            <img src="statistical-modelling.jpg" alt="Course4">
-            <h3>Statistical Modelling</h3>
-            <p>Gain a thorough understanding of maths and statistics foundation for Machine Learning and AI</p>
-            <button class="add-to-cart-btn">Add to Cart</button>
+<section class="trainer-form">
+    <div class="form-container">
+        <h2>Apply to Become a Trainer</h2>
+        <form action="/submit-trainer-application" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
 
-        </div>
-        <div class="course1-card">
-            <img src="deep-learning.jpg" alt="Course5">
-            <h3>Deep Learning</h3>
-            <p>Learn to use Keras and TensorFlow to solve complex problems with Deep Learning models</p>
-            <button class="add-to-cart-btn">Add to Cart</button>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-        </div>
-        <div class="course1-card">
-            <img src="AI-transformers.jpg" alt="Course6">
-            <h3>AI with Transformers</h3>
-            <p>Understand why AI Transformer models are so unique and build robust applications using them</p>    
-            <button class="add-to-cart-btn">Add to Cart</button>
-        </div>
-        </div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
 
-        <!-- Add more course cards as needed -->
+            <label for="experience">Teaching Experience (years):</label>
+            <input type="number" id="experience" name="experience" required>
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+            <label for="message">Message (optional):</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
     </div>
 </section>
+
 
 
 
