@@ -85,6 +85,11 @@ nav img {
     width: 100%;
 }
 
+.fa-bars,
+.fa-times {
+    cursor: pointer;
+    display: none;
+}
 /* Login Button Styles */
 .login-btn {
     padding: 10px 20px;
@@ -993,16 +998,7 @@ footer {
     text-align: center;
     color: #000000;
 }
-.trainer-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
 
-.trainer-header nav img {
-    width: 100px;
-}
 
 
 /* Trainer Form Styles */
